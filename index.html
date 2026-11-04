@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>Not Your Shooter — Legal</title>
+  <style>
+    :root {
+      --bg: #050B1E;
+      --bg-card: #0C1530;
+      --fg: #E6ECFF;
+      --muted: #9AA7C7;
+      --accent: #5B8CFF;
+      --border: #1C2A50;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .wrap { max-width: 560px; width: 100%; text-align: center; }
+    h1 { font-size: 1.9rem; margin: 0 0 8px; }
+    p.sub { color: var(--muted); margin: 0 0 32px; }
+    .links { display: grid; gap: 16px; }
+    a.card {
+      display: block;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 24px;
+      text-decoration: none;
+      color: var(--fg);
+      text-align: left;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    a.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    a.card strong { display: block; font-size: 1.1rem; margin-bottom: 4px; }
+    a.card span { color: var(--muted); font-size: .9rem; }
+    footer { margin-top: 36px; color: var(--muted); font-size: .8rem; }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Not Your Shooter</h1>
+    <p class="sub">Legal &amp; policy documents</p>
+    <div class="links">
+      <a class="card" href="privacy-policy.html">
+        <strong>Privacy Policy</strong>
+        <span>What data the game collects, how it is used, and your choices.</span>
+      </a>
+      <a class="card" href="terms.html">
+        <strong>Terms &amp; Conditions</strong>
+        <span>The rules for using the app and purchasing in-game items.</span>
+      </a>
+    </div>
+    <footer>
+      &copy; 2026 Kanad Patil. Questions? <a href="mailto:knd.codes@gmail.com">knd.codes@gmail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
